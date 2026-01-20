@@ -1521,3 +1521,10 @@ main {
     flex-wrap: wrap;
     max-width: 80%;
 }
+
+.my_title {
+    display: inline-block;
+}
+.minor-span {
+    font-size: 34px;
+}
