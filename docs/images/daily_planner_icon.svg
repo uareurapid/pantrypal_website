@@ -1,0 +1,90 @@
+<svg
+  width="1024"
+  height="1024"
+  viewBox="0 0 1024 1024"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1024" height="1024" fill="#27272a"/>
+
+  <!-- Calendar header -->
+  <rect x="130" y="120" width="760" height="160" rx="40" fill="#ef4444" stroke="#000000" stroke-width="6"/>
+  <!--<circle cx="280" cy="120" r="24" fill="#9CA3AF" stroke="#E5E7EB" stroke-width="3"/>-->
+  <circle cx="280" cy="170" r="30" fill="#111827" stroke="#E5E7EB" stroke-width="3"/>
+
+
+  <!--<circle cx="500" cy="120" r="24" fill="#9CA3AF" stroke="#E5E7EB" stroke-width="3"/>-->
+  <circle cx="508" cy="170" r="30" fill="##111827" stroke="#E5E7EB" stroke-width="3"/>
+  
+  
+  <!--<circle cx="744" cy="120" r="24" fill="#9CA3AF" stroke="#E5E7EB" stroke-width="3"/>-->
+  <circle cx="744" cy="170" r="30" fill="##111827" stroke="#E5E7EB" stroke-width="3"/>
+
+  <!-- Calendar grid -->
+  <!-- was stroke and fill eef2ff-->
+  <rect x="134" y="324" width="754" height="520" rx="48" fill="#eef2ff" stroke-width="6" stroke="#eef2ff"/>
+  <!--<rect x="160" y="320" width="704" height="520" rx="48" fill="#64748b" stroke-width="6" stroke="#111827"/>-->
+  <g stroke="#c7d2fe" stroke-width="6">
+    <!--<line x1="150" y1="340" x2="874" y2="340"/>-->
+    <line x1="150" y1="514" x2="872" y2="510"/>
+    <line x1="150" y1="684" x2="872" y2="680"/>
+    <!--<line x1="150" y1="810" x2="874" y2="810"/>-->
+
+    <!-- purple grid -->
+    <rect x="164" y="363" width="153" height="130" rx="4" fill="#818cf8" stroke-width="4" stroke="#818cf8"/>
+    <!-- red grid -->
+    <rect x="164" y="533" width="153" height="130" rx="4" fill="#ef4444" stroke-width="4" stroke="#ef4444"/>
+
+    <rect x="352" y="363" width="153" height="130" rx="4" fill="#ef4444" stroke-width="4" stroke="#ef4444"/>
+
+    <!-- verticais -->
+    <!--<line x1="150" y1="357" x2="150" y2="813"/>-->
+
+    <line x1="336" y1="330" x2="336" y2="837"/>
+    <line x1="520" y1="330" x2="516" y2="837"/>
+    <line x1="698" y1="480" x2="698" y2="837"/>
+    
+  </g>
+
+  <!-- Mountain -->
+  <!-- M1, 6 L2,8  L5,2 L8,8 L10, 3 L12, 8 -->
+  <!-- https://svg-path-visualizer.netlify.app/#M1%2C%206%20L2%2C8%20%20L5%2C2%20L8%2C8%20L10%2C%203%20L12%2C%208 -->
+  <path
+    d="M295 835 L567 500 L841 835 Z"
+    fill="#e0e7ff" stroke-width="4" stroke="#818cf8"
+  />
+
+  <!--<path
+    <path
+    d="M240 840 L512 420 L784 840 Z"
+    fill="#52525b"
+  />
+  />-->
+  <path
+    d="M285 835 L567 620 L851 835 Z"
+    fill="#27272a" stroke-width="4" stroke="#818cf8"
+  />
+  
+   <!-- #6B7280 #2563eb -->
+
+  <!-- Flag pole -->
+  <rect
+    x="559"
+    y="345"
+    width="16"
+    height="180"
+    rx="8"
+    fill="#000000"
+  />
+
+  <!-- Flag -->
+  <path
+    d="M565 360
+       C580 370, 645 365, 700 355
+       L700 445
+       C640 435, 585 445, 565 445 Z"
+    fill="#a3e635" stroke-width="4" stroke="#000000"
+  />
+
+</svg>

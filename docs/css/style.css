@@ -1269,6 +1269,16 @@ label {
     font-family: "Heebo", sans-serif;
     font-weight: 500;
 }
+
+.feature-icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+    background-image: url("../images/icon.png");
+    background-repeat: no-repeat;
+    background-size: 64px;
+    border-radius: 10%;
+}
 @media (min-width: 641px) {
     .features {
         position: relative;
