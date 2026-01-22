@@ -1404,7 +1404,7 @@ label {
 .is-boxed {
     background: #0b1524;
 }
-.body-wrap, .body-wrap-lighter {
+.body-wrap {
     background: #06101f;
     overflow: hidden;
     display: flex;
@@ -1412,9 +1412,6 @@ label {
     min-height: 100vh;
 }
 
-.body-wrap-lighter {
-    color: white;
-}
 .boxed-container {
     max-width: 1440px;
     margin: 0 auto;
