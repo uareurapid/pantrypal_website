@@ -1411,6 +1411,15 @@ label {
     flex-direction: column;
     min-height: 100vh;
 }
+
+.body-wrap-lighter {
+    background: #3730a3;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: white;
+}
 .boxed-container {
     max-width: 1440px;
     margin: 0 auto;
