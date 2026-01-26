@@ -1,2 +1,2 @@
-# dailyplanner_website
-Daily Planner Website
+# pantrypal_website
+Pantry Pal Website
