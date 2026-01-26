@@ -205,12 +205,12 @@ hr {
     border: 0;
     display: block;
     height: 1px;
-    background: #273c5a;
+    background: #10B981;
     background: linear-gradient(
         to right,
-        rgba(39, 60, 90, 0.1) 0,
-        rgba(39, 60, 90, 0.6) 50%,
-        rgba(39, 60, 90, 0.1) 100%
+        rgba(21, 128, 61, 0.5) 0,
+        rgba(101, 163, 13, 0.6) 50%,
+        rgba(16, 185, 129, 0.9) 100%
     );
     margin-top: 24px;
     margin-bottom: 24px;
