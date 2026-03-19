@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://uareurapid.github.io/coffe_break_website/sitemap.xml
